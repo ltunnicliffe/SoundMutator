@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2A15DA1B5797A0005A5821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A15D91B5797A0005A5821 /* AppDelegate.swift */; };
+		AC2A15DC1B5797A0005A5821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A15DB1B5797A0005A5821 /* ViewController.swift */; };
+		AC2A15DF1B5797A0005A5821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2A15DD1B5797A0005A5821 /* Main.storyboard */; };
+		AC2A15E11B5797A0005A5821 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2A15E01B5797A0005A5821 /* Images.xcassets */; };
+		AC2A15E41B5797A0005A5821 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2A15E21B5797A0005A5821 /* LaunchScreen.xib */; };
+		AC2A15F01B5797A0005A5821 /* Sound_MutaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A15EF1B5797A0005A5821 /* Sound_MutaterTests.swift */; };
+		AC2A15FA1B579880005A5821 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A15F91B579880005A5821 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2A15EA1B5797A0005A5821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2A15CC1B5797A0005A5821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2A15D31B5797A0005A5821;
+			remoteInfo = "Sound Mutater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2A15D41B5797A0005A5821 /* Sound Mutater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Mutater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2A15D81B5797A0005A5821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2A15D91B5797A0005A5821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC2A15DB1B5797A0005A5821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC2A15DE1B5797A0005A5821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2A15E01B5797A0005A5821 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC2A15E31B5797A0005A5821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC2A15E91B5797A0005A5821 /* Sound MutaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound MutaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2A15EE1B5797A0005A5821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2A15EF1B5797A0005A5821 /* Sound_MutaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_MutaterTests.swift; sourceTree = "<group>"; };
+		AC2A15F91B579880005A5821 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2A15D11B5797A0005A5821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2A15E61B5797A0005A5821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2A15CB1B5797A0005A5821 = {
+			isa = PBXGroup;
+			children = (
+				AC2A15D61B5797A0005A5821 /* Sound Mutater */,
+				AC2A15EC1B5797A0005A5821 /* Sound MutaterTests */,
+				AC2A15D51B5797A0005A5821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2A15D51B5797A0005A5821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A15D41B5797A0005A5821 /* Sound Mutater.app */,
+				AC2A15E91B5797A0005A5821 /* Sound MutaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2A15D61B5797A0005A5821 /* Sound Mutater */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A15D91B5797A0005A5821 /* AppDelegate.swift */,
+				AC2A15DB1B5797A0005A5821 /* ViewController.swift */,
+				AC2A15DD1B5797A0005A5821 /* Main.storyboard */,
+				AC2A15F91B579880005A5821 /* TableViewController.swift */,
+				AC2A15E01B5797A0005A5821 /* Images.xcassets */,
+				AC2A15E21B5797A0005A5821 /* LaunchScreen.xib */,
+				AC2A15D71B5797A0005A5821 /* Supporting Files */,
+			);
+			path = "Sound Mutater";
+			sourceTree = "<group>";
+		};
+		AC2A15D71B5797A0005A5821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A15D81B5797A0005A5821 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC2A15EC1B5797A0005A5821 /* Sound MutaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A15EF1B5797A0005A5821 /* Sound_MutaterTests.swift */,
+				AC2A15ED1B5797A0005A5821 /* Supporting Files */,
+			);
+			path = "Sound MutaterTests";
+			sourceTree = "<group>";
+		};
+		AC2A15ED1B5797A0005A5821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A15EE1B5797A0005A5821 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2A15D31B5797A0005A5821 /* Sound Mutater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2A15F31B5797A0005A5821 /* Build configuration list for PBXNativeTarget "Sound Mutater" */;
+			buildPhases = (
+				AC2A15D01B5797A0005A5821 /* Sources */,
+				AC2A15D11B5797A0005A5821 /* Frameworks */,
+				AC2A15D21B5797A0005A5821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sound Mutater";
+			productName = "Sound Mutater";
+			productReference = AC2A15D41B5797A0005A5821 /* Sound Mutater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC2A15E81B5797A0005A5821 /* Sound MutaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2A15F61B5797A0005A5821 /* Build configuration list for PBXNativeTarget "Sound MutaterTests" */;
+			buildPhases = (
+				AC2A15E51B5797A0005A5821 /* Sources */,
+				AC2A15E61B5797A0005A5821 /* Frameworks */,
+				AC2A15E71B5797A0005A5821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2A15EB1B5797A0005A5821 /* PBXTargetDependency */,
+			);
+			name = "Sound MutaterTests";
+			productName = "Sound MutaterTests";
+			productReference = AC2A15E91B5797A0005A5821 /* Sound MutaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2A15CC1B5797A0005A5821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Luke Tunnicliffe";
+				TargetAttributes = {
+					AC2A15D31B5797A0005A5821 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AC2A15E81B5797A0005A5821 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AC2A15D31B5797A0005A5821;
+					};
+				};
+			};
+			buildConfigurationList = AC2A15CF1B5797A0005A5821 /* Build configuration list for PBXProject "Sound Mutater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2A15CB1B5797A0005A5821;
+			productRefGroup = AC2A15D51B5797A0005A5821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2A15D31B5797A0005A5821 /* Sound Mutater */,
+				AC2A15E81B5797A0005A5821 /* Sound MutaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2A15D21B5797A0005A5821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A15DF1B5797A0005A5821 /* Main.storyboard in Resources */,
+				AC2A15E41B5797A0005A5821 /* LaunchScreen.xib in Resources */,
+				AC2A15E11B5797A0005A5821 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2A15E71B5797A0005A5821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2A15D01B5797A0005A5821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A15DC1B5797A0005A5821 /* ViewController.swift in Sources */,
+				AC2A15FA1B579880005A5821 /* TableViewController.swift in Sources */,
+				AC2A15DA1B5797A0005A5821 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2A15E51B5797A0005A5821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A15F01B5797A0005A5821 /* Sound_MutaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2A15EB1B5797A0005A5821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2A15D31B5797A0005A5821 /* Sound Mutater */;
+			targetProxy = AC2A15EA1B5797A0005A5821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC2A15DD1B5797A0005A5821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2A15DE1B5797A0005A5821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC2A15E21B5797A0005A5821 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2A15E31B5797A0005A5821 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2A15F11B5797A0005A5821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC2A15F21B5797A0005A5821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2A15F41B5797A0005A5821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Mutater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC2A15F51B5797A0005A5821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Mutater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC2A15F71B5797A0005A5821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sound MutaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound Mutater.app/Sound Mutater";
+			};
+			name = Debug;
+		};
+		AC2A15F81B5797A0005A5821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sound MutaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound Mutater.app/Sound Mutater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2A15CF1B5797A0005A5821 /* Build configuration list for PBXProject "Sound Mutater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2A15F11B5797A0005A5821 /* Debug */,
+				AC2A15F21B5797A0005A5821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2A15F31B5797A0005A5821 /* Build configuration list for PBXNativeTarget "Sound Mutater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2A15F41B5797A0005A5821 /* Debug */,
+				AC2A15F51B5797A0005A5821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2A15F61B5797A0005A5821 /* Build configuration list for PBXNativeTarget "Sound MutaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2A15F71B5797A0005A5821 /* Debug */,
+				AC2A15F81B5797A0005A5821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2A15CC1B5797A0005A5821 /* Project object */;
+}
